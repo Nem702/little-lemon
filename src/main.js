@@ -1,7 +1,59 @@
 import React from "react";
+import GreekSalad from "./Figma---Assets/icons_assets/greek salad.jpg";
+import "./main.css";
+import { Link } from "react-router-dom";
+import OrderOnline from "./OrderOnline";
 
 const Main = () => {
-  return <main className="main">Main component</main>;
+  return (
+    <main>
+      <div className="specialsContainer">
+        <h2>Specials</h2>
+        <button>Online Menu</button>
+        <div className="cardsContainer">
+          <div className="card">
+            <img className="cardImg" src={GreekSalad} alt="greek salad"></img>
+            <div className="titleNprice">
+              <h5>Greek Salad</h5>
+              <p>$5.99</p>
+            </div>
+            <p>
+              The famous greek salad of crispy lettuce, peppers, olives and our
+              Chicago style feta cheese, garnished with crunchy garlic and
+              rosemary croutons.{" "}
+            </p>
+            <Link to={OrderOnline}>Order Delivery</Link>
+          </div>
+          <div className="card">
+            <img className="cardImg" src={GreekSalad} alt="greek salad"></img>
+            <div className="titleNprice">
+              <h5>Greek Salad</h5>
+              <p>$5.99</p>
+            </div>
+            <p>
+              The famous greek salad of crispy lettuce, peppers, olives and our
+              Chicago style feta cheese, garnished with crunchy garlic and
+              rosemary croutons.{" "}
+            </p>
+            <Link to={OrderOnline}>Order Delivery</Link>
+          </div>
+          <div className="card">
+            <img className="cardImg" src={GreekSalad} alt="greek salad"></img>
+            <div className="titleNprice">
+              <h5>Greek Salad</h5>
+              <p>$5.99</p>
+            </div>
+            <p>
+              The famous greek salad of crispy lettuce, peppers, olives and our
+              Chicago style feta cheese, garnished with crunchy garlic and
+              rosemary croutons.{" "}
+            </p>
+            <Link to={OrderOnline}>Order Delivery</Link>
+          </div>
+        </div>
+      </div>
+    </main>
+  );
 };
 
 export default Main;

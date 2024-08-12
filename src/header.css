@@ -1,17 +1,17 @@
 header {
-    width: 100%;
-    height: 400px;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
 }
-img {
-    width: 375px;
-    height: 325px;
-    border-radius: 16px;
-    box-shadow: 5px 5px 10px 2px #333333;
+header img {
+  width: 375px;
+  height: 325px;
+  border-radius: 16px;
+  box-shadow: 5px 5px 10px 2px #333333;
 }
 .headerLeft,
-.headerRight  {
-    max-width: 400px;
-    padding: 20px;
+.headerRight {
+  max-width: 400px;
+  padding: 20px;
 }

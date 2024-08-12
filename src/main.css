@@ -1,0 +1,14 @@
+main {
+  display: flex;
+}
+
+.cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 265px);
+  gap: 20px;
+}
+
+.card img {
+  height: 185px;
+  width: 265px;
+}
