@@ -21,3 +21,11 @@ a {
     font-weight: 500;
     font-size: 20px;
 }
+
+.navbar li:hover {
+    color: #495E57;
+}
+
+.navbar li.active {
+    color: #F4CE14;
+}
