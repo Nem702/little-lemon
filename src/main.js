@@ -10,48 +10,49 @@ const Main = () => {
       <div className="specialsContainer">
         <h2>Specials</h2>
         <button>Online Menu</button>
+      </div>
         <div className="cardsContainer">
           <div className="card">
             <img className="cardImg" src={GreekSalad} alt="greek salad"></img>
             <div className="titleNprice">
-              <h5>Greek Salad</h5>
-              <p>$5.99</p>
+              <h4>Greek Salad</h4>
+              <p className="price">$5.99</p>
             </div>
             <p>
               The famous greek salad of crispy lettuce, peppers, olives and our
               Chicago style feta cheese, garnished with crunchy garlic and
               rosemary croutons.{" "}
             </p>
-            <Link to={OrderOnline}>Order Delivery</Link>
+            <Link className="orderDelivery" to={OrderOnline}>Order Delivery</Link>
           </div>
           <div className="card">
             <img className="cardImg" src={GreekSalad} alt="greek salad"></img>
             <div className="titleNprice">
-              <h5>Greek Salad</h5>
-              <p>$5.99</p>
+              <h4>Greek Salad</h4>
+              <p className="price">$5.99</p>
             </div>
             <p>
               The famous greek salad of crispy lettuce, peppers, olives and our
               Chicago style feta cheese, garnished with crunchy garlic and
               rosemary croutons.{" "}
             </p>
-            <Link to={OrderOnline}>Order Delivery</Link>
+            <Link className="orderDelivery" to={OrderOnline}>Order Delivery</Link>
           </div>
           <div className="card">
             <img className="cardImg" src={GreekSalad} alt="greek salad"></img>
             <div className="titleNprice">
-              <h5>Greek Salad</h5>
-              <p>$5.99</p>
+              <h4>Greek Salad</h4>
+              <p className="price">$5.99</p>
             </div>
             <p>
               The famous greek salad of crispy lettuce, peppers, olives and our
               Chicago style feta cheese, garnished with crunchy garlic and
               rosemary croutons.{" "}
             </p>
-            <Link to={OrderOnline}>Order Delivery</Link>
+            <Link className="orderDelivery" to={OrderOnline}>Order Delivery</Link>
           </div>
         </div>
-      </div>
+      
     </main>
   );
 };

@@ -1,14 +1,72 @@
 main {
-  display: flex;
+  display: block;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px 0;
 }
 
+.specialsContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.specialsContainer button{
+  background-color: #333333;
+  color: #edefee;
+  height: 40px;
+  font-weight: 600;
+}
+
+.specialsContainer button:hover{
+  background-color: #f4ce14;
+  color: #495e57;
+}
 .cardsContainer {
-  display: grid;
-  grid-template-columns: repeat(3, 265px);
+  /* display: grid;
+  grid-template-columns: repeat(3, 265px); */
+
+    display: grid;
+    grid-template-columns: repeat(3, 265px);
+    grid-auto-rows: minmax(200px, auto);
+
   gap: 20px;
+  justify-content: center;
+
 }
 
 .card img {
   height: 185px;
   width: 265px;
+  border-radius: 16px 16px 0 0 ;
+}
+
+.card {
+  background-color: #fbdabb94;
+  border-radius: 16px;
+  box-shadow: 5px 5px 10px 2px #5a5a5a;
+}
+
+.card p{
+  padding: 0 20px;
+}
+
+.titleNprice {
+  padding: 0 25px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+.price {
+  color: #333333;
+  font-weight: 600;
+}
+
+.orderDelivery{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }

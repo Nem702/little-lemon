@@ -8,7 +8,7 @@ header img {
   width: 375px;
   height: 325px;
   border-radius: 16px;
-  box-shadow: 5px 5px 10px 2px #333333;
+  box-shadow: 5px 5px 10px 2px #5a5a5a;
 }
 .headerLeft,
 .headerRight {

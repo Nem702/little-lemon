@@ -1,6 +1,8 @@
 import React from "react";
 import "./header.css"
 import HeaderImg from "./assets/restauranfood.jpg"
+
+
 const Header = () => {
   return (
     <header className="headerWrapper">

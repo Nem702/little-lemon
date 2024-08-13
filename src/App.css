@@ -31,10 +31,21 @@ a {
   font-size: 20px;
 }
 
-.navbar li:hover {
-  color: #495E57;
+.navbar a:hover {
+  color: #ee9972;
 }
 
-.navbar li.active {
+.navbar a.active {
   color: #F4CE14;
+}
+button{
+  background-color: #333333;
+  color: #edefee;
+  height: 40px;
+  font-weight: 600;
+}
+
+button:hover{
+  background-color: #f4ce14;
+  color: #495e57;
 }
