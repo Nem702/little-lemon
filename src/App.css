@@ -38,14 +38,16 @@ a {
 .navbar a.active {
   color: #F4CE14;
 }
-button{
+.link{
   background-color: #333333;
   color: #edefee;
   height: 40px;
   font-weight: 600;
+  padding: 5px;
+  border-radius: 6px;
 }
 
-button:hover{
+.link:hover{
   background-color: #f4ce14;
   color: #495e57;
 }

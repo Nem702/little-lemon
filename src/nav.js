@@ -10,6 +10,7 @@ const Nav = () => {
         <Logo />
       </Link>
       <ul>
+        <CustomLink to="/">Home</CustomLink>
         <CustomLink to="/about">About</CustomLink>
         <CustomLink to="/menu">Menu</CustomLink>
         <CustomLink to="/reservations">Reservations</CustomLink>

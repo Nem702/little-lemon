@@ -3,11 +3,13 @@ main {
   justify-content: space-evenly;
   align-items: center;
   padding: 50px 0;
+  padding: 100px 0;
 }
 
 .specialsContainer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  padding: 100px 0 0 0;
 }
 
 .specialsContainer button{
@@ -69,4 +71,32 @@ main {
   display: flex;
   justify-content: center;
   padding: 10px;
+}
+
+
+/* About */
+.about {
+  padding: 100px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  justify-content: center;
+}
+.aboutRight img{
+  max-width: 300px;
+}
+
+/* Footer */
+footer{
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  gap: 20px ;
+  justify-content: center;
+  padding: 100px 0;
+}
+.footerImg{
+  max-width: 200px;
+}
+
+.dormantNavigation{
+  display: inline-grid;
 }

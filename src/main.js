@@ -9,7 +9,7 @@ const Main = () => {
     <main>
       <div className="specialsContainer">
         <h2>Specials</h2>
-        <button>Online Menu</button>
+        <Link className="link" to="/menu">Online Menu</Link>
       </div>
         <div className="cardsContainer">
           <div className="card">
@@ -23,7 +23,7 @@ const Main = () => {
               Chicago style feta cheese, garnished with crunchy garlic and
               rosemary croutons.{" "}
             </p>
-            <Link className="orderDelivery" to={OrderOnline}>Order Delivery</Link>
+            <Link className="orderDelivery" to="/orderOnline">Order Delivery</Link>
           </div>
           <div className="card">
             <img className="cardImg" src={GreekSalad} alt="greek salad"></img>
@@ -36,7 +36,7 @@ const Main = () => {
               Chicago style feta cheese, garnished with crunchy garlic and
               rosemary croutons.{" "}
             </p>
-            <Link className="orderDelivery" to={OrderOnline}>Order Delivery</Link>
+            <Link className="orderDelivery" to="/orderOnline">Order Delivery</Link>
           </div>
           <div className="card">
             <img className="cardImg" src={GreekSalad} alt="greek salad"></img>
@@ -49,7 +49,7 @@ const Main = () => {
               Chicago style feta cheese, garnished with crunchy garlic and
               rosemary croutons.{" "}
             </p>
-            <Link className="orderDelivery" to={OrderOnline}>Order Delivery</Link>
+            <Link className="orderDelivery" to="/orderOnline">Order Delivery</Link>
           </div>
         </div>
       

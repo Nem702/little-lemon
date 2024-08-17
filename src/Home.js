@@ -3,6 +3,8 @@ import Header from "./header";
 import Nav from "./nav";
 import Main from "./main";
 import Footer from "./footer";
+import Testimonials from "./testimonials";
+import About from "./About";
 
 const Home = () => {
     return (
@@ -10,6 +12,8 @@ const Home = () => {
             <Nav />
             <Header />
             <Main />
+            <Testimonials />
+            <About />
             <Footer />
         </>
     )

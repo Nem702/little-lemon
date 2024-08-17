@@ -3,6 +3,7 @@ header {
   height: 400px;
   display: flex;
   justify-content: center;
+  padding: 100px 0;
 }
 header img {
   width: 375px;
@@ -15,3 +16,4 @@ header img {
   max-width: 400px;
   padding: 20px;
 }
+

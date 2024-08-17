@@ -1,0 +1,17 @@
+.testimonialsWarapper{
+    display: grid;
+    grid-template-columns: repeat(4, 165px);
+    grid-auto-rows: minmax(200px, auto);
+    gap:20px;
+    justify-content: center;
+    padding: 100px 0;
+  }
+  
+  .ratingCard{
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .ratingCard img{
+    max-width: 165px;
+  }
