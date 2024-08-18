@@ -1,0 +1,10 @@
+form {
+  display: grid;
+  max-width: 200px;
+  gap: 20px;
+}
+
+.formWrapper {
+  display: flex;
+  justify-content: center;
+}
