@@ -2,9 +2,13 @@ form {
   display: grid;
   max-width: 200px;
   gap: 20px;
+  padding: 40px 20px;
+  background-color: #386d5b;
+  border-radius: 16px;
 }
 
 .formWrapper {
   display: flex;
   justify-content: center;
+  margin: 100px 0;
 }
