@@ -3,9 +3,9 @@ import "./bookingPage.css";
 
 const BookingForm = () => {
   const [resDate, setResDate] = useState("");
-  const [resTime, setResTime] = useState("");
-  const [guests, setGuests] = useState("");
-  const [occasion, setOccasion] = useState("occasion");
+  const [resTime, setResTime] = useState("17:00");
+  const [guests, setGuests] = useState("1");
+  const [occasion, setOccasion] = useState("Birthday");
 
   // const handleChange = (e) => {
   //   const [name, value] = e.target;
@@ -15,6 +15,12 @@ const BookingForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Form submitted!");
+    console.log({
+      resDate,
+      resTime,
+      guests,
+      occasion
+    })
   };
 
   return (

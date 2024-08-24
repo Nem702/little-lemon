@@ -1,3 +1,4 @@
+import React from "react";
 import Nav from "./nav";
 import BookingForm from "./form";
 import Footer from "./footer";
@@ -7,7 +8,7 @@ const BookingPage = () => {
   return (
     <div>
       <Nav />
-      <BookingForm />
+      <BookingForm/>
       <Footer />
     </div>
   );
